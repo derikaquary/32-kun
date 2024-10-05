@@ -87,44 +87,44 @@ function Header() {
           }`}
           aria-hidden={!isOpen}>
           <Link
-            href="#home"
+            href="/"
             className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
             Home
           </Link>
           <Link
-            href="#services"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
-            Services
-          </Link>
-          <Link
-            href="#pricing"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
-            Pricing
-          </Link>
-          <Link
-            href="#collections"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
-            Samples
-          </Link>
-          <Link
-            href="#about"
+            href="/about"
             className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
             About
           </Link>
           <Link
-            href="#projects"
+            href="/client"
             className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
-            Projects
+            Client
+          </Link>
+          <Link
+            href="/service"
+            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            Service
+          </Link>
+          <Link
+            href="/team"
+            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            Team
+          </Link>
+          <Link
+            href="/contact"
+            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            Contact
           </Link>
         </nav>
 
         <nav className="hidden gap-4 text-white sm:flex">
-          <Link href="#home">Home</Link>
-          <Link href="#services">Service</Link>
-          <Link href="#pricing">Pricing</Link>
-          <Link href="#collections">Samples</Link>
-          <Link href="#about">About</Link>
-          <Link href="#projects">Projects</Link>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/client">Client</Link>
+          <Link href="/service">Service</Link>
+          <Link href="/about">Team</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
       </div>
     </header>

@@ -28,7 +28,7 @@ export default function Home() {
       />
       <div className="flex-1 w-full"></div>
       <div className="flex flex-col items-center">
-        <div className="flex h-[200px] w-[250px] items-center justify-center rounded-xl bg-[#dfdfdf] p-2">
+        <div className="flex h-[200px] w-[250px] items-center justify-center rounded-xl bg-[#dfdfdf] p-2 mb-3">
           <div className="relative w-full h-full">
             <Image
               src={kunImage}
