@@ -61,8 +61,8 @@ function Header() {
   }, []);
 
   return (
-    <header className="fixed z-[1001] h-[74px] w-full bg-[#0f1924]">
-      <div className="flex flex-row justify-between items-center px-3 py-3 mx-auto max-w-7xl border-b border-b-white/40 sm:max-w-7xl">
+    <header className="fixed z-[1001] h-[74px] w-full bg-primary">
+      <div className="flex flex-row justify-between items-center px-3 py-3 mx-auto border-b border-b-[#f6c34c] max-w-7xl">
         <div className="flex flex-row gap-2 items-center">
           <div className="relative h-[50px] w-[50px]">
             <Image src={logo} fill alt="Company logo" className="rounded-lg" />
