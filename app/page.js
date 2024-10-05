@@ -26,10 +26,10 @@ export default function Home() {
         fill
         className="z-[-50] object-cover"
       />
-      <div className="w-full flex-1"></div>
+      <div className="flex-1 w-full"></div>
       <div className="flex flex-col items-center">
         <div className="flex h-[200px] w-[250px] items-center justify-center rounded-xl bg-[#dfdfdf] p-2">
-          <div className="relative h-full w-full">
+          <div className="relative w-full h-full">
             <Image
               src={kunImage}
               alt="kun logo"
@@ -41,16 +41,18 @@ export default function Home() {
         <p className="text-6xl font-[900] text-secondary">COMPANY</p>
         <p className="text-6xl font-[900] text-white">PROFILE</p>
       </div>
-      <div className="flex w-full flex-1 flex-col items-center justify-end">
-        <div className="w-full flex-1"></div>
-        <div className="w-full flex-1"></div>
+      <div className="flex flex-col flex-1 justify-end items-center w-full">
+        <div className="flex-1 w-full"></div>
+        <div className="flex-1 w-full"></div>
         {/* Footer */}
         <div
-          className={`flex w-full flex-1 flex-row items-center justify-between gap-7 ${outfit.className} max-w-7xl`}
+          className={`flex w-full flex-1 flex-row items-center justify-between gap-7 ${outfit.className} max-w-7xl px-3 py-3`}
         >
-          <p className="flex-0.7 text-center text-white sm:text-3xl">01/29</p>
+          <p className="flex-0.7 text-center font-[200] text-white sm:text-3xl">
+            01/29
+          </p>
           <div className="h-[2px] w-full flex-1 bg-white"></div>
-          <p className="flex-0.7 text-center text-white sm:text-3xl">
+          <p className="flex-0.7 text-center font-[200] text-white sm:text-3xl">
             <span className="sm:hidden">KUN</span>
             <span className="hidden sm:block">Kreator Utama Nusantara</span>
           </p>
