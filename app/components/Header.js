@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "@/public/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
-
 import Link from "next/link";
 
 function Header() {
@@ -41,10 +40,30 @@ function Header() {
     };
   }, [isOpen]);
 
+  // Close the dropdown menu if the window width exceeds 640px (sm breakpoint)
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth >= 640) {
+        setIsOpen(false); // Automatically close the menu on larger screens
+      }
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    // Initial check for screen size on mount
+    if (window.innerWidth >= 640) {
+      setIsOpen(false);
+    }
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <header className="fixed z-[1001] h-[74px] w-full bg-[#0f1924]">
-      <div className="flex flex-row items-center justify-between px-3 py-3 mx-auto border-b max-w-7xl border-b-white/40 sm:max-w-7xl">
-        <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row justify-between items-center px-3 py-3 mx-auto max-w-7xl border-b border-b-white/40 sm:max-w-7xl">
+        <div className="flex flex-row gap-2 items-center">
           <div className="relative h-[50px] w-[50px]">
             <Image src={logo} fill alt="Company logo" className="rounded-lg" />
           </div>
@@ -98,7 +117,8 @@ function Header() {
             Projects
           </Link>
         </nav>
-        <nav className="hidden gap-4 text-white sm:flex ">
+
+        <nav className="hidden gap-4 text-white sm:flex">
           <Link href="#home">Home</Link>
           <Link href="#services">Service</Link>
           <Link href="#pricing">Pricing</Link>
