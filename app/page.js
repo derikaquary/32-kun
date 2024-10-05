@@ -11,12 +11,14 @@ const openSans = Open_Sans({
 
 const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["100","200","300", "400", "500", "600", "700", "800", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function Home() {
   return (
-    <main className={`${openSans.className} relative flex h-[100vh] w-full flex-col items-center justify-center gap-3`}>
+    <main
+      className={`${openSans.className} relative flex h-[100vh] w-full flex-col items-center justify-center gap-3`}
+    >
       {" "}
       <Image
         src={page1}
@@ -24,10 +26,10 @@ export default function Home() {
         fill
         className="z-[-50] object-cover"
       />
-      <div className="flex-1 w-full"></div>
+      <div className="w-full flex-1"></div>
       <div className="flex flex-col items-center">
         <div className="flex h-[200px] w-[250px] items-center justify-center rounded-xl bg-[#dfdfdf] p-2">
-          <div className="relative w-full h-full">
+          <div className="relative h-full w-full">
             <Image
               src={kunImage}
               alt="kun logo"
@@ -39,13 +41,19 @@ export default function Home() {
         <p className="text-6xl font-[900] text-secondary">COMPANY</p>
         <p className="text-6xl font-[900] text-white">PROFILE</p>
       </div>
-      <div className="flex flex-col flex-1 justify-end items-center w-full">
-        <div className="flex-1 w-full"></div>
-        <div className="flex-1 w-full"></div>
-        <div className={`flex flex-row flex-1 gap-3 justify-between items-center w-full ${outfit.className}`}>
-          <p className="flex-1 text-center text-white">01/29</p>
+      <div className="flex w-full flex-1 flex-col items-center justify-end">
+        <div className="w-full flex-1"></div>
+        <div className="w-full flex-1"></div>
+        {/* Footer */}
+        <div
+          className={`flex w-full flex-1 flex-row items-center justify-between gap-7 ${outfit.className} max-w-7xl`}
+        >
+          <p className="flex-0.7 text-center text-white sm:text-3xl">01/29</p>
           <div className="h-[2px] w-full flex-1 bg-white"></div>
-          <p className="flex-1 text-center text-white"><span className="sm:hidden">KUN</span><span className="hidden">Kreator Utama Nusantara</span></p>
+          <p className="flex-0.7 text-center text-white sm:text-3xl">
+            <span className="sm:hidden">KUN</span>
+            <span className="hidden sm:block">Kreator Utama Nusantara</span>
+          </p>
         </div>
       </div>
     </main>
