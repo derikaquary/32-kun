@@ -52,7 +52,7 @@ export default function Home() {
             01/29
           </p>
           <div className="h-[2px] w-full flex-1 bg-white"></div>
-          <p className="flex-0.7 text-center font-[200] text-white sm:text-3xl">
+          <p className="flex-0.7 text-center font-[300] text-white sm:text-3xl">
             <span className="sm:hidden">KUN</span>
             <span className="hidden sm:block">Kreator Utama Nusantara</span>
           </p>
