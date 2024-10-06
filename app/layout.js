@@ -1,7 +1,8 @@
-import localFont from "next/font/local";
 import "./_style/globals.css";
-import Header from "./_components/Header";
 import { Open_Sans } from "next/font/google";
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
+
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         className={`overflow-x-hidden antialiased ${openSans.className}`}> {/* Prevent horizontal overflow */}
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

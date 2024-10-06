@@ -27,7 +27,7 @@ function About() {
         </div>
         <div className="flex flex-row justify-center p-4 w-full">
           <div className="sm:w-2/5"></div>
-          <p className={`p-2 text-xl text-white ${outfit.className} sm:w-3/5 font-[200]`}>
+          <p className={`p-2 text-xl text-white ${outfit.className} sm:w-3/5 font-[200] text-justify`}>
             Kreator utama nusantara is a creative and digital services company
             that provides promotional videos, company profiles, managing social
             media both personal or company account, event organizing and also as
