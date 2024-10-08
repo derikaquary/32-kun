@@ -5,11 +5,13 @@ import Image from "next/image";
 import logo from "@/public/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
+import { usePathname } from "next/navigation"; // Import usePathname
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null); // Ref for the dropdown menu
   const buttonRef = useRef(null); // Ref for the hamburger button
+  const pathname = usePathname(); // To get the current path
 
   function handleSidebar() {
     setIsOpen((prevIsOpen) => !prevIsOpen); // Toggle menu open/close
@@ -18,7 +20,6 @@ function Header() {
   // Close the menu if clicking outside of the dropdown menu or the hamburger button
   useEffect(() => {
     function handleClickOutside(event) {
-      // Check if the click is outside both the menu and the hamburger button
       if (
         menuRef.current &&
         !menuRef.current.contains(event.target) &&
@@ -60,6 +61,9 @@ function Header() {
     };
   }, []);
 
+  // Function to check if the current route matches the link
+  const isActiveLink = (href) => pathname === href;
+
   return (
     <header className="fixed z-[1001] h-[74px] w-full bg-primary">
       <div className="flex flex-row justify-between items-center px-3 py-3 mx-auto border-b border-b-[#f6c34c] max-w-7xl">
@@ -88,43 +92,67 @@ function Header() {
           aria-hidden={!isOpen}>
           <Link
             href="/"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/") ? "text-yellow-500" : ""}`}>
             Home
           </Link>
           <Link
             href="/about"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/about") ? "text-yellow-500" : ""}`}>
             About
           </Link>
           <Link
             href="/client"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/client") ? "text-yellow-500" : ""}`}>
             Client
           </Link>
           <Link
             href="/service"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/service") ? "text-yellow-500" : ""}`}>
             Service
           </Link>
           <Link
             href="/team"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/team") ? "text-yellow-500" : ""}`}>
             Team
           </Link>
           <Link
             href="/contact"
-            className="text-xl text-white sm:mr-7 sm:block sm:text-lg">
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/contact") ? "text-yellow-500" : ""}`}>
             Contact
           </Link>
         </nav>
 
         <nav className="hidden gap-4 text-white sm:flex">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/client">Client</Link>
-          <Link href="/service">Service</Link>
-          <Link href="/about">Team</Link>
-          <Link href="/contact">Contact</Link>
+          <Link
+            href="/"
+            className={`${isActiveLink("/") ? "text-yellow-500" : ""}`}>
+            Home
+          </Link>
+          <Link
+            href="/about"
+            className={`${isActiveLink("/about") ? "text-yellow-500" : ""}`}>
+            About
+          </Link>
+          <Link
+            href="/client"
+            className={`${isActiveLink("/client") ? "text-yellow-500" : ""}`}>
+            Client
+          </Link>
+          <Link
+            href="/service"
+            className={`${isActiveLink("/service") ? "text-yellow-500" : ""}`}>
+            Service
+          </Link>
+          <Link
+            href="/team"
+            className={`${isActiveLink("/team") ? "text-yellow-500" : ""}`}>
+            Team
+          </Link>
+          <Link
+            href="/contact"
+            className={`${isActiveLink("/contact") ? "text-yellow-500" : ""}`}>
+            Contact
+          </Link>
         </nav>
       </div>
     </header>
