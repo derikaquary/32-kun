@@ -106,7 +106,7 @@ function Client() {
           fill
           className="z-[-50] object-cover"
         />
-        <div className="flex pl-5 w-full">
+        <div className="flex justify-center w-full">
           <p className="text-6xl font-bold text-white">Our Clients</p>
         </div>
 
