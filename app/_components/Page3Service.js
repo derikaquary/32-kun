@@ -91,14 +91,14 @@ function Page3Service() {
         <div className="flex h-[130px] w-full items-center justify-center text-center text-[45px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
-        <div className="flex h-[400px] w-full bg-green-400 flex-col">
-          <div className="w-full bg-red-400 h-400px">
+        <div className="flex h-[400px] w-full  flex-col">
+          <div className="w-full h-400px">
             <Link
               href="https://www.youtube.com/watch?v=7ihGgcnKido"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative h-[240px] w-full bg-purple-400">
+              <div className="relative h-[240px] w-full ">
                 <Image
                   src={ikkubaru}
                   alt="gambar YouTube Ikkubaru"
@@ -107,7 +107,7 @@ function Page3Service() {
                 />
               </div>
             </Link>
-            <ul className="ml-5 flex list-disc flex-col gap-1 px-2 text-lg font-[300] text-white">
+            <ul className="ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[300] text-white">
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
@@ -124,7 +124,7 @@ function Page3Service() {
               </li>
             </ul>
           </div>
-          <div className="flex-1 mt-5 bg-yellow-400 h-400px">
+          <div className="flex-1 mt-5 h-400px">
             <Link
               href="https://www.youtube.com/watch?si=b7ROcQx00tfIpj-m&v=Sd9-5sCeTVk&feature=youtu.be"
               target="_blank"
@@ -139,7 +139,7 @@ function Page3Service() {
                 />
               </div>
             </Link>
-            <ul className="ml-5 flex list-disc flex-col gap-1 px-2 text-lg font-[300] text-white">
+            <ul className="ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[300] text-white">
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
