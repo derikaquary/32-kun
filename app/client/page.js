@@ -1,5 +1,7 @@
-"use client"
+"use client";
 
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 import image4 from "@/public/page 1_4.png";
 import bulog from "@/public/bulog.png";
@@ -16,15 +18,16 @@ function Client() {
   // State for carousel index
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Images array with height and width for each image
   const images = [
-    { src: bulog, alt: "bulog logo" },
-    { src: boxes, alt: "boxes logo" },
-    { src: pgn, alt: "pgn logo" },
-    { src: jasa, alt: "jasa logo" },
-    { src: bumn, alt: "bumn logo" },
-    { src: roman, alt: "roman logo" },
-    { src: ikku, alt: "ikku logo" },
-    { src: water, alt: "water logo" },
+    { src: bulog, alt: "bulog logo", height: 85, width: 250 },
+    { src: boxes, alt: "boxes logo", height: 130, width: 130 },
+    { src: pgn, alt: "pgn logo", height: 140, width: 140 },
+    { src: jasa, alt: "jasa logo", height: 140, width: 195 },
+    { src: bumn, alt: "bumn logo", height: 80, width: 300 },
+    { src: roman, alt: "roman logo", height: 100, width: 290 },
+    { src: ikku, alt: "ikku logo", height: 70, width: 250 },
+    { src: water, alt: "water logo", height: 170, width: 300 },
   ];
 
   // Auto-slide after every 3 seconds
@@ -47,7 +50,7 @@ function Client() {
   return (
     <>
       {/* Big Screen */}
-      <div className="hidden relative sm:flex h-[100vh] w-full flex-col items-center justify-center gap-7">
+      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-7 sm:flex">
         <Image
           src={image4}
           alt="background"
@@ -55,7 +58,7 @@ function Client() {
           className="z-[-50] object-cover"
         />
         <div className="flex pl-5 w-full">
-          <p className="text-6xl font-bold text-white">Our Client</p>
+          <p className="text-6xl font-bold text-white">Our Clients</p>
         </div>
 
         <div className="flex flex-col gap-7 justify-center items-center w-full">
@@ -69,13 +72,13 @@ function Client() {
             <div className="relative h-[150px] w-[150px]">
               <Image src={pgn} alt="bulog logo" fill className="object-fit" />
             </div>
-            <div className="relative h-[150px] w-[210px]">
+            <div className="relative h-[160px] w-[220px]">
               <Image src={jasa} alt="bulog logo" fill className="object-fit" />
             </div>
           </div>
 
           <div className="flex h-[100px] w-full flex-row items-center justify-center gap-[30px]">
-            <div className="relative h-[350px] w-[460px]">
+            <div className="relative h-[130px] w-[460px]">
               <Image src={bumn} alt="bulog logo" fill className="object-fit" />
             </div>
             <div className="relative h-[100px] w-[290px]">
@@ -95,9 +98,8 @@ function Client() {
           </div>
         </div>
       </div>
-
       {/* Small Screen Carousel */}
-      <div className="sm:hidden relative flex h-[100vh] w-full flex-col items-center justify-center gap-7">
+      <div className="relative flex h-[100vh] w-full flex-col items-center justify-center gap-7 sm:hidden">
         <Image
           src={image4}
           alt="background"
@@ -105,20 +107,20 @@ function Client() {
           className="z-[-50] object-cover"
         />
         <div className="flex pl-5 w-full">
-          <p className="text-6xl font-bold text-white">Our Client</p>
+          <p className="text-6xl font-bold text-white">Our Clients</p>
         </div>
 
-        <div className="flex items-center justify-center relative w-full h-[150px]">
+        <div className="relative flex h-[150px] w-full items-center justify-center">
           {/* Left Arrow */}
           <button
             className="absolute left-5 z-10 p-2 bg-white rounded-full"
             onClick={prevSlide}
           >
-            &lt;
+            <IoIosArrowBack />
           </button>
 
           {/* Carousel */}
-          <div className="overflow-hidden w-[80%] h-full relative">
+          <div className="relative h-full w-[80%] overflow-hidden">
             <div
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -128,7 +130,13 @@ function Client() {
                   key={index}
                   className="flex justify-center items-center min-w-full"
                 >
-                  <div className="relative h-[150px] w-[150px]">
+                  <div
+                    className="relative"
+                    style={{
+                      height: `${image.height}px`,
+                      width: `${image.width}px`,
+                    }}
+                  >
                     <Image
                       src={image.src}
                       alt={image.alt}
@@ -146,7 +154,7 @@ function Client() {
             className="absolute right-5 z-10 p-2 bg-white rounded-full"
             onClick={nextSlide}
           >
-            &gt;
+            <IoIosArrowForward />
           </button>
         </div>
       </div>
