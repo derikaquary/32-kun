@@ -4,7 +4,7 @@ import Page3Service from "../_components/Page3Service";
 
 function Service() {
   return (
-    <div className="overflow-auto">
+    <div >
     <Page1Service/>
     <Page2Service/>
     <Page3Service/>

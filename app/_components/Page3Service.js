@@ -87,7 +87,7 @@ function Page3Service() {
         <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 justify-center items-center px-2 w-full sm:hidden">
+      <div className="flex flex-col gap-3 pt-8 items-center px-2 w-full sm:hidden h-[1100px]">
         <div className="flex h-[130px] w-full items-center justify-center text-center text-[45px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
