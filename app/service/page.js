@@ -10,7 +10,7 @@ function Service() {
         fill
         className="z-[-50] object-cover"
       />
-      <div className="flex flex-col gap-8 justify-center items-center">
+      <div className="flex flex-col gap-8 justify-center items-center p-2 rounded-lg bg-black/30">
         <p className="text-5xl font-[800] text-secondary">Our Services</p>
         <div className="flex flex-col gap-1 text-3xl font-[500] text-white">
           <p>VIDEO PRODUCTION</p>
