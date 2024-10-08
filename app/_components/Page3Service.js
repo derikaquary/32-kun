@@ -13,12 +13,12 @@ function Page3Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col px-2 w-full sm:flex">
-        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className="hidden flex-col px-2 w-full sm:flex pt-[50px]">
+        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary ">
           VIDEO PRODUCTION
         </div>
-        <div className="mx-auto flex h-[500px] w-full max-w-7xl bg-green-400 px-[70px]">
-          <div className="flex-1 bg-red-400 h-400px">
+        <div className="mx-auto flex h-[500px] w-full max-w-7xl  px-[70px]">
+          <div className="flex-1 h-400px">
             <ul className="ml-5 flex list-disc flex-col gap-1 px-2 text-lg font-[300] text-white">
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
@@ -50,7 +50,7 @@ function Page3Service() {
               </div>
             </Link>
           </div>
-          <div className="flex-1 bg-yellow-400 h-400px">
+          <div className="flex-1 h-400px">
             <Link
               href="https://www.youtube.com/watch?si=b7ROcQx00tfIpj-m&v=Sd9-5sCeTVk&feature=youtu.be"
               target="_blank"
