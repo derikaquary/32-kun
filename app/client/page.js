@@ -63,7 +63,7 @@ function Client() {
 
         <div className="flex flex-col gap-7 justify-center items-center w-full">
           <div className="flex h-[100px] w-full flex-row items-center justify-center gap-[40px]">
-            <div className="relative h-[80px] w-[340px]">
+            <div className="relative h-[100px] w-[340px]">
               <Image src={bulog} alt="bulog logo" fill className="object-fit" />
             </div>
             <div className="relative h-[130px] w-[133px]">
@@ -78,7 +78,7 @@ function Client() {
           </div>
 
           <div className="flex h-[100px] w-full flex-row items-center justify-center gap-[30px]">
-            <div className="relative h-[130px] w-[460px]">
+            <div className="relative h-[110px] w-[460px]">
               <Image src={bumn} alt="bulog logo" fill className="object-fit" />
             </div>
             <div className="relative h-[100px] w-[290px]">
