@@ -28,7 +28,7 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 justify-center items-center p-2 py-4 bg-black/30 sm:hidden">
+      <div className="flex flex-col gap-6 justify-center items-center p-2 py-4 sm:hidden">
         <p className="text-center text-5xl font-[800] text-secondary">
           Video Production
         </p>
