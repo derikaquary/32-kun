@@ -1,5 +1,5 @@
 import Image from "next/image";
-import page from "@/public/page 1_5.png";
+import page from "@/public/page 1_6.png";
 
 function Page2Service() {
   return (
@@ -11,15 +11,19 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col justify-center items-center p-2 w-full rounded-lg sm:flex">
-        <div className="flex h-[100px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
-          Our Services
+      <div className="hidden flex-col p-2 w-full rounded-lg sm:flex">
+        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary ">
+        VIDEO PRODUCTION
         </div>
-        <div className="flex h-[200px] w-full flex-col justify-center gap-3 pl-[200px] text-4xl font-[500] text-white">
-          <p>VIDEO PRODUCTION</p>
-          <p>BRAND ACTIVATION</p>
-          <p>CONTENT CREATOR</p>
-        </div>
+        <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
+          <li>TVC</li>
+          <li>FILLER</li>
+          <li>COVERAGE MULTICAM SYSTEM</li>
+          <li>VIDEO COMPANY PROFILE</li>
+          <li>TV PROGRAM</li>
+          <li>MUSIC VIDEO</li>
+          <li>LIVE STREAMING</li>
+        </ul>
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
