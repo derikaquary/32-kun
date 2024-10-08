@@ -103,12 +103,12 @@ function Header() {
           <Link
             href="/client"
             className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/client") ? "text-yellow-500" : ""}`}>
-            Client
+            Clients
           </Link>
           <Link
             href="/service"
             className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/service") ? "text-yellow-500" : ""}`}>
-            Service
+            Services
           </Link>
           <Link
             href="/team"
