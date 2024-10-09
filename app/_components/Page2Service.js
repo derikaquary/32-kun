@@ -3,7 +3,7 @@ import page from "@/public/page 1_6.png";
 
 function Page2Service() {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center">
+    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px]">
       <Image
         src={page}
         alt="background page 5"
