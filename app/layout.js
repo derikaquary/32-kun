@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         {/* Prevent horizontal overflow */}
         <Header />
         {children}
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );

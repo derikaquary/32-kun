@@ -3,7 +3,7 @@ import page from "@/public/page 1_6.png";
 
 function Page2Service() {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px]">
+    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px] ">
       <Image
         src={page}
         alt="background page 5"
@@ -11,7 +11,7 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col p-2 w-full rounded-lg sm:flex">
+      <div className="hidden flex-col p-2 w-full max-w-7xl rounded-lg sm:flex">
         <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary ">
         VIDEO PRODUCTION
         </div>
