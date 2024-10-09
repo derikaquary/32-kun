@@ -10,9 +10,9 @@ const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-function Page6Service() {
-  return (
-    <div className="relative flex w-full justify-center sm:h-[100vh] sm:pt-[50px]">
+function Page7Service() {
+    return (
+        <div className="relative flex w-full justify-center sm:h-[100vh] sm:pt-[50px]">
       <Image
         src={page}
         alt="background page 5"
@@ -179,7 +179,7 @@ function Page6Service() {
         </div>
       </div>
     </div>
-  );
+    )
 }
 
-export default Page6Service;
+export default Page7Service
