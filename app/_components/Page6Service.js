@@ -10,9 +10,9 @@ const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-function Page5Service() {
-  return (
-    <div className="relative flex sm:h-[100vh] w-full justify-center sm:pt-[50px]">
+function Page6Service() {
+    return (
+        <div className="relative flex sm:h-[100vh] w-full justify-center sm:pt-[50px]">
       <Image
         src={page}
         alt="background page 5"
@@ -104,7 +104,7 @@ function Page5Service() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 items-center px-2 w-full bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-6 items-center px-2 py-8 w-full bg-black/10 sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"
@@ -173,7 +173,7 @@ function Page5Service() {
         </div>
       </div>
     </div>
-  );
+    )
 }
 
-export default Page5Service;
+export default Page6Service
