@@ -68,7 +68,9 @@ function Page4Service() {
 
           {/* Right Box */}
           <div className="flex-1 h-400px">
-            <ul className={`flex flex-col gap-1 ml-5 text-xl list-disc text-white font-[200] ${outfit.className}`}>
+            <ul
+              className={`ml-5 flex list-disc flex-col gap-1 text-xl font-[200] text-white ${outfit.className}`}
+            >
               <li>Production &#40;Directing and Briefing&#41;</li>
               <li>Post&#45;Production &#40;Editing&#41;</li>
               <li className="font-semibold text-black">
@@ -102,80 +104,73 @@ function Page4Service() {
         <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="flex h-[1100px] w-full flex-col items-center gap-3 bg-black/10 px-2 pt-8 sm:hidden">
-        <div className="flex h-[130px] w-full items-center justify-center text-center text-[45px] font-[700] text-secondary">
-          VIDEO PRODUCTION
+      <div className="flex flex-col gap-3 items-center px-2 py-8 w-full bg-black/10 sm:hidden">
+        <div className="w-full h-400px">
+          <Link
+            href="https://www.youtube.com/watch?si=xwPYzpq2QzZzjpv_&v=dIh2hts7FlU&feature=youtu.be"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="relative h-[240px] w-full">
+              <Image
+                src={granit}
+                alt="gambar YouTube granit"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </Link>
+          <ul
+            className={`${outfit.className} ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white`}
+          >
+            <li>Pre&#45;Production &#40;Concepting and Script Writing&#41;</li>
+            <li>Production &#40;Directing and Briefing&#41;</li>
+            <li>Post&#45;Production &#40;Editing&#41;</li>
+            <li className="font-semibold text-black">
+              <Link
+                href="https://www.youtube.com/watch?si=xwPYzpq2QzZzjpv_&v=dIh2hts7FlU&feature=youtu.be"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b-4 border-black"
+              >
+                KLIK HERE TO WATCH
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div className="flex h-[400px] w-full flex-col">
-          <div className="w-full h-400px">
-            <Link
-              href="https://www.youtube.com/watch?si=xwPYzpq2QzZzjpv_&v=dIh2hts7FlU&feature=youtu.be"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="relative h-[240px] w-full">
-                <Image
-                  src={granit}
-                  alt="gambar YouTube granit"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </Link>
-            <ul className={`${outfit.className} flex flex-col gap-1 px-2 mt-2 ml-5 text-lg list-disc text-white font-[200]`}>
-              <li>
-                Pre&#45;Production &#40;Concepting and Script Writing&#41;
-              </li>
-              <li>Production &#40;Directing and Briefing&#41;</li>
-              <li>Post&#45;Production &#40;Editing&#41;</li>
-              <li className="font-semibold text-black">
-                <Link
-                  href="https://www.youtube.com/watch?si=xwPYzpq2QzZzjpv_&v=dIh2hts7FlU&feature=youtu.be"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border-b-4 border-black"
-                >
-                  KLIK HERE TO WATCH
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="flex-1 mt-5 h-400px">
-            <Link
-              href="https://www.youtube.com/watch?si=Q0ha_5b3lt0GpX_r&v=gJq8tcmKXvI&feature=youtu.be"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="relative h-[240px] w-full">
-                <Image
-                  src={hijabi}
-                  alt="gambar YouTube hijabi"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </Link>
-            <ul className={`flex flex-col gap-1 px-2 mt-2 ml-5 text-lg list-disc text-white font-[200] ${outfit.className}`}>
-              <li>
-                Pre&#45;Production &#40;Concepting and Script Writing&#41;
-              </li>
-              <li>Production &#40;Directing and Briefing&#41;</li>
-              <li>Post&#45;Production &#40;Editing&#41;</li>
-              <li className="font-semibold text-black">
-                <Link
-                  href="https://www.youtube.com/watch?si=Q0ha_5b3lt0GpX_r&v=gJq8tcmKXvI&feature=youtu.be"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border-b-4 border-black"
-                >
-                  KLIK HERE TO WATCH
-                </Link>
-              </li>
-            </ul>
-          </div>
+        <div className="flex-1 mt-5 h-400px">
+          <Link
+            href="https://www.youtube.com/watch?si=Q0ha_5b3lt0GpX_r&v=gJq8tcmKXvI&feature=youtu.be"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="relative h-[240px] w-full">
+              <Image
+                src={hijabi}
+                alt="gambar YouTube hijabi"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </Link>
+          <ul
+            className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
+          >
+            <li>Pre&#45;Production &#40;Concepting and Script Writing&#41;</li>
+            <li>Production &#40;Directing and Briefing&#41;</li>
+            <li>Post&#45;Production &#40;Editing&#41;</li>
+            <li className="font-semibold text-black">
+              <Link
+                href="https://www.youtube.com/watch?si=Q0ha_5b3lt0GpX_r&v=gJq8tcmKXvI&feature=youtu.be"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b-4 border-black"
+              >
+                KLIK HERE TO WATCH
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
     </div>
   );

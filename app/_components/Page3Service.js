@@ -20,13 +20,15 @@ function Page3Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className=" hidden flex-col w-full sm:flex pt-[50px] max-w-7xl">
-        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary ">
+      <div className="hidden w-full max-w-7xl flex-col pt-[50px] sm:flex">
+        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
           VIDEO PRODUCTION
         </div>
-        <div className="mx-auto flex h-[500px] w-full max-w-7xl  px-[70px]">
+        <div className="mx-auto flex h-[500px] w-full max-w-7xl px-[70px]">
           <div className="flex-1 h-400px">
-            <ul className={`flex flex-col gap-1 text-xl list-disc text-white font-[200] ${outfit.className}`}>
+            <ul
+              className={`flex list-disc flex-col gap-1 text-xl font-[200] text-white ${outfit.className}`}
+            >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
@@ -57,8 +59,8 @@ function Page3Service() {
               </div>
             </Link>
           </div>
-          <div className="w-[20px] h-full flex justify-center items-end">
-            <div className="h-[90%] bg-yellow-400 w-[2px]"></div>
+          <div className="flex h-full w-[20px] items-end justify-center">
+            <div className="h-[90%] w-[2px] bg-yellow-400"></div>
           </div>
           <div className="flex-1 h-400px">
             <Link
@@ -75,7 +77,9 @@ function Page3Service() {
                 />
               </div>
             </Link>
-            <ul className={`flex flex-col gap-1 px-2 ml-5 text-xl list-disc text-white font-[200] ${outfit.className}`}>
+            <ul
+              className={`ml-5 flex list-disc flex-col gap-1 px-2 text-xl font-[200] text-white ${outfit.className}`}
+            >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
@@ -97,18 +101,14 @@ function Page3Service() {
         <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 pt-8 items-center px-2 w-full sm:hidden h-[1100px] bg-black/10">
-        <div className="flex h-[130px] w-full items-center justify-center text-center text-[45px] font-[700] text-secondary">
-          VIDEO PRODUCTION
-        </div>
-        <div className="flex h-[400px] w-full  flex-col">
+      <div className="flex flex-col gap-3 justify-center px-2 w-full bg-black/10 sm:hidden">
           <div className="w-full h-400px">
             <Link
               href="https://www.youtube.com/watch?v=7ihGgcnKido"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative h-[240px] w-full ">
+              <div className="relative h-[240px] w-full">
                 <Image
                   src={ikkubaru}
                   alt="gambar YouTube Ikkubaru"
@@ -117,7 +117,9 @@ function Page3Service() {
                 />
               </div>
             </Link>
-            <ul className={`flex flex-col gap-1 px-2 mt-2 ml-5 text-lg list-disc text-white font-[200] ${outfit.className}`}>
+            <ul
+              className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
+            >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
@@ -150,7 +152,9 @@ function Page3Service() {
                 />
               </div>
             </Link>
-            <ul className={`flex flex-col gap-1 px-2 mt-2 ml-5 text-lg list-disc text-white font-[200] ${outfit.className}`}>
+            <ul
+              className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
+            >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
               </li>
@@ -168,9 +172,7 @@ function Page3Service() {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
+        
       </div>
     </div>
   );
