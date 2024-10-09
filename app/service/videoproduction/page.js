@@ -4,6 +4,7 @@ import Page4Service from "@/app/_components/Page4Service";
 import Page5Service from "@/app/_components/Page5Service";
 import Page6Service from "@/app/_components/Page6Service";
 import Page7Service from "@/app/_components/Page7Service";
+import Page8Service from "@/app/_components/Page8Service";
 
 function page() {
   return (
@@ -14,6 +15,7 @@ function page() {
       <Page5Service/>
       <Page6Service/>
       <Page7Service/>
+      <Page8Service/>
     </div>
   );
 }
