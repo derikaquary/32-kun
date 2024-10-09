@@ -1,8 +1,8 @@
 import Image from "next/image";
 import page from "@/public/page 1_7.png";
 import Link from "next/link";
-import eliyas from "@/public/eliyas.png";
-import kaleidoskop from "@/public/kaleidoskop.png";
+import pelatih from "@/public/pelatih.png";
+import mariana from "@/public/mariana.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -29,14 +29,14 @@ function Page6Service() {
             {/* Left box */}
             <div className="flex-1 h-400px">
               <Link
-                href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"
+                href="https://www.youtube.com/watch?v=8zKe1Eq_bIo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="relative h-[305px] w-full">
                   <Image
-                    src={eliyas}
-                    alt="gambar YouTube eliyas"
+                    src={pelatih}
+                    alt="gambar YouTube pelatih"
                     fill
                     className="object-cover"
                   />
@@ -47,7 +47,7 @@ function Page6Service() {
               >
                 <li className="font-semibold text-black">
                   <Link
-                    href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"
+                    href="https://www.youtube.com/watch?v=8zKe1Eq_bIo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-b-4 border-black" // Use border for a thicker underline
@@ -61,14 +61,14 @@ function Page6Service() {
             {/* Right Box */}
             <div className="flex-1 h-400px">
               <Link
-                href="https://www.youtube.com/watch?si=CXhz-VlYUf5N2eOC&v=fvKT7lSJarc&feature=youtu.be"
+                href="https://www.youtube.com/watch?si=y8AbGdPhe5CmOPuB&v=nmAHfshQRlU&feature=youtu.be"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="relative h-[305px] w-full">
                   <Image
-                    src={kaleidoskop}
-                    alt="gambar YouTube kaleidoskop"
+                    src={mariana}
+                    alt="gambar YouTube mariana"
                     fill
                     className="object-cover"
                   />
@@ -79,7 +79,7 @@ function Page6Service() {
               >
                 <li className="font-semibold text-black">
                   <Link
-                    href="https://www.youtube.com/watch?si=CXhz-VlYUf5N2eOC&v=fvKT7lSJarc&feature=youtu.be"
+                    href="https://www.youtube.com/watch?si=y8AbGdPhe5CmOPuB&v=nmAHfshQRlU&feature=youtu.be"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-b-4 border-black"
@@ -107,13 +107,13 @@ function Page6Service() {
       <div className="flex flex-col gap-6 items-center px-2 py-8 w-full bg-black/10 sm:hidden">
         <div className="w-full h-400px">
           <Link
-            href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"
+            href="https://www.youtube.com/watch?v=8zKe1Eq_bIo"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="relative h-[240px] w-full">
               <Image
-                src={eliyas}
+                src={pelatih}
                 alt="gambar YouTube granit"
                 fill
                 className="object-cover"
@@ -128,7 +128,7 @@ function Page6Service() {
             <li>Post&#45;Production &#40;Editing Motion&#41;</li>
             <li className="font-semibold text-black">
               <Link
-                href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"
+                href="https://www.youtube.com/watch?v=8zKe1Eq_bIo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b-4 border-black"
@@ -140,14 +140,14 @@ function Page6Service() {
         </div>
         <div className="flex-1 mt-3 h-400px">
           <Link
-            href="https://www.youtube.com/watch?si=CXhz-VlYUf5N2eOC&v=fvKT7lSJarc&feature=youtu.be"
+            href="https://www.youtube.com/watch?si=y8AbGdPhe5CmOPuB&v=nmAHfshQRlU&feature=youtu.be"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="relative h-[240px] w-full">
               <Image
-                src={kaleidoskop}
-                alt="gambar YouTube kaleidoskop"
+                src={mariana}
+                alt="gambar YouTube mariana"
                 fill
                 className="object-cover"
               />
@@ -161,7 +161,7 @@ function Page6Service() {
             <li>Post&#45;Production &#40;Editing Motion&#41;</li>
             <li className="font-semibold text-black">
               <Link
-                href="https://www.youtube.com/watch?si=CXhz-VlYUf5N2eOC&v=fvKT7lSJarc&feature=youtu.be"
+                href="https://www.youtube.com/watch?si=y8AbGdPhe5CmOPuB&v=nmAHfshQRlU&feature=youtu.be"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b-4 border-black"
