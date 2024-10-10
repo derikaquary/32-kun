@@ -13,13 +13,13 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden w-full max-w-7xl flex-col rounded-lg p-2 pt-[100px] sm:flex relative">
-        <div className="fixed left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+      <div className="relative hidden w-full max-w-7xl flex-col rounded-lg p-2 pt-[100px] sm:flex">
+        <div className="fixed left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-4 text-sm font-[200] text-white">
           <FaArrowUp />
-          <span>Scroll</span>
+          <span className="text-xs">Scroll</span>
           <FaArrowDown />
         </div>
-        <div className="flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary">
+        <div className=" flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary">
           VIDEO PRODUCTION
         </div>
         <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
@@ -35,8 +35,8 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className=" relative z-[100] flex-col items-center pt-6 px-3 pb-4 flex sm:hidden h-[100vh] gap-3">
-      <div className="fixed right-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+      <div className="flex h-[100vh] flex-col items-center gap-3 px-3 pb-4 pt-6 sm:hidden">
+        <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
           <FaArrowDown />

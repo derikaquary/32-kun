@@ -22,15 +22,17 @@ function Page2Brand() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center bg-green-400 sm:flex">
-        <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center sm:flex">
+        <div className="flex h-[70px] items-center  w-[800px] text-[35px] font-[700] text-secondary">
           EVENT
         </div>
-        <p className="mb-2 w-[400px] text-2xl font-[800] leading-[1.2] text-tertiery">
-          Opening Ceremony Rakernis Kementerian Ketenagakerjaan RI
-        </p>
+        <div className="w-[710px] ">
+          <p className="mb-2 w-[400px] text-2xl font-[800] leading-[1.2] text-tertiery">
+            Opening Ceremony Rakernis Kementerian Ketenagakerjaan RI
+          </p>
+        </div>
         <div className="flex flex-col gap-4">
-          <div className="flex h-[330px] w-full max-w-7xl gap-3">
+          <div className="flex gap-3 w-full max-w-7xl">
             {/* Left box */}
             <div className="flex-1 h-200px">
               <div className="relative h-[200px] w-[350px]">
