@@ -12,11 +12,11 @@ function Page1Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col gap-3 justify-center items-center p-2 w-full rounded-lg sm:flex">
-        <div className="mb-[40px] flex h-[100px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className="hidden flex-col gap-3 justify-center items-center p-2 pt-[100px] w-full rounded-lg sm:flex max-w-7xl">
+        <div className=" flex h-[100px] w-full items-center pl-[200px] text-[45px] font-[800] text-secondary">
           Our Services
         </div>
-        <div className="flex h-[200px] w-full flex-col justify-center gap-3 pl-[200px] text-4xl font-[500] text-white">
+        <div className="flex h-[200px] w-full flex-col justify-center gap-3 pl-[300px] text-xl font-[500] text-white">
           <Link href="/service/video_production">
             <button className="px-6 py-3 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
               VIDEO PRODUCTION

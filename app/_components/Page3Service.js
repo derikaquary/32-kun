@@ -20,14 +20,14 @@ function Page3Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden w-full max-w-7xl flex-col pt-[50px] sm:flex">
-        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className=" hidden w-full max-w-7xl flex-col justify-center items-center sm:flex h-[100vh]">
+        <div className=" flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
-        <div className="mx-auto flex h-[500px] w-full max-w-7xl px-[70px]">
-          <div className="flex-1 h-400px">
+        <div className="flex w-full max-w-7xl">
+          <div className="flex flex-col flex-1 items-end h-400px">
             <ul
-              className={`flex list-disc flex-col gap-1 text-xl font-[200] text-white ${outfit.className}`}
+              className={` flex list-disc flex-col text-md font-[200] text-white ${outfit.className}`}
             >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
@@ -49,7 +49,7 @@ function Page3Service() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative mt-4 h-[305px] w-full">
+              <div className="relative mt-4 h-[200px] w-[350px]">
                 <Image
                   src={ikkubaru}
                   alt="gambar YouTube Ikkubaru"
@@ -59,8 +59,8 @@ function Page3Service() {
               </div>
             </Link>
           </div>
-          <div className="flex h-full w-[20px] items-end justify-center">
-            <div className="h-[90%] w-[2px] bg-yellow-400"></div>
+          <div className="flex h-full w-[20px] items-start justify-center">
+            <div className="h-[100%] w-[2px] bg-yellow-400"></div>
           </div>
           <div className="flex-1 h-400px">
             <Link
@@ -68,7 +68,7 @@ function Page3Service() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative mb-4 h-[305px] w-full">
+              <div className="relative mb-4 h-[200px] w-[350px]">
                 <Image
                   src={panganan}
                   alt="gambar YouTube Ikkubaru"
@@ -78,7 +78,7 @@ function Page3Service() {
               </div>
             </Link>
             <ul
-              className={`ml-5 flex list-disc flex-col gap-1 px-2 text-xl font-[200] text-white ${outfit.className}`}
+              className={`ml-5 flex list-disc flex-col gap-1 px-2 text-md font-[200] text-white ${outfit.className}`}
             >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
@@ -97,8 +97,7 @@ function Page3Service() {
             </ul>
           </div>
         </div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
-        <div className="h-[50px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
+        
       </div>
       {/* Small Screen */}
       <div className="flex flex-col gap-3 justify-center px-2 pt-8 w-full bg-black/10 sm:hidden">

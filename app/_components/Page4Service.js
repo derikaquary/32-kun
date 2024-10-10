@@ -20,7 +20,7 @@ function Page4Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden w-full max-w-7xl flex-col pt-[50px] sm:flex">
+      <div className="bg-green-400 hidden w-full max-w-7xl flex-col pt-[50px] sm:flex">
         <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
           VIDEO PRODUCTION
         </div>

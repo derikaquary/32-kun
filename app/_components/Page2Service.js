@@ -1,5 +1,7 @@
 import Image from "next/image";
 import page from "@/public/page 1_6.png";
+import { FaArrowDown } from "react-icons/fa6";
+import { FaArrowUp } from "react-icons/fa";
 
 function Page2Service() {
   return (
@@ -11,8 +13,10 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col p-2 w-full max-w-7xl rounded-lg sm:flex">
-        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary ">
+      <div className="hidden flex-col p-2 w-full max-w-7xl rounded-lg sm:flex pt-[100px]">
+{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:1608202756. */}
+        <div className="bg-black/40 p-3 rounded-2xl fixed text-sm text-white font-[200] left-2 top-[250px] flex flex-col h-[100px] items-center gap-3"><FaArrowUp /><span>Scroll</span><FaArrowDown /></div>
+        <div className="flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary ">
         VIDEO PRODUCTION
         </div>
         <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
