@@ -11,7 +11,7 @@ function Page1Brand() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col w-full max-w-7xl rounded-lg sm:flex">
+      <div className=" pt-[100px] hidden h-[100vh] flex-col w-full max-w-7xl rounded-lg sm:flex">
         <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
           Brand Activation
         </div>
@@ -21,8 +21,7 @@ function Page1Brand() {
           <li>PRODUCT CAMPAIGN</li>
           <li>FIGURE CAMPAIGN</li>
         </ul>
-        <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
-        <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
+        
       </div>
       {/* Small Screen */}
       <div className="flex flex-col gap-6 justify-center items-center px-3 py-4 rounded-md bg-black/40 sm:hidden">
