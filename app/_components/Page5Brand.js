@@ -1,7 +1,8 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
 import Link from "next/link";
-import jejer from "@/public/jejer.png";
+import binis1 from "@/public/binis1.png";
+import binis2 from "@/public/binis2.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -10,8 +11,8 @@ const outfit = Outfit({
 });
 
 function Page5Brand() {
-    return (
-        <div
+  return (
+    <div
       className={`relative flex w-full flex-col items-center justify-center ${outfit.className}`}
     >
       <Image
@@ -27,44 +28,25 @@ function Page5Brand() {
         </div>
         <div className="w-[850px]">
           <p className="mb-2 text-2xl font-[800] leading-[1.2] text-tertiery">
-            Grand Launching panganan.com Bulog
+          Opening Ceremony and Documentation Bimbingan Teknis Tenaga Kerja
+          Mandiri Kementerian Ketenagakerjaan RI
           </p>
         </div>
-        <div className="flex gap-4 justify-center items-center">
-          <div className="">
-            <p
-              className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
-            >
-              Pre&#45;Production
-            </p>
-            <ul
-              className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
-            >
-              <li>Concepting</li>
-              <li>Rundown and Script Writing</li>
-              <li>Stage Design</li>
-            </ul>
-            <p
-              className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
-            >
-              Production
-            </p>
-            <ul
-              className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
-            >
-              <li>Manpower</li>
-              <li>Show Management</li>
-              <li>Talent Brief</li>
-              <li>Technical System</li>
-              <li>Documentation</li>
-            </ul>
+        <div className="flex gap-5 justify-center items-center w-full h-[250px]">
+          {/* Left Box */}
+          <div className="relative h-full w-[400px]">
+            <Image
+              src={binis1}
+              alt="gambar YouTube binis1"
+              fill
+              className="object-fit"
+            />
           </div>
           {/* Right Box */}
-
-          <div className="relative h-full w-[455px]">
+          <div className="relative h-full w-[400px]">
             <Image
-              src={jejer}
-              alt="gambar YouTube jejer"
+              src={binis2}
+              alt="gambar YouTube binis2"
               fill
               className="object-fit"
             />
@@ -76,9 +58,10 @@ function Page5Brand() {
       {/* Small Screen */}
       <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full border-t-2 border-white/40 bg-black/10 sm:hidden">
         <p className="text-center text-3xl font-[700] leading-[1.0] text-tertiery">
-          Grand Launching Panganan.com Bulog
+          Opening Ceremony and Documentation Bimbingan Teknis Tenaga Kerja
+          Mandiri Kementerian Ketenagakerjaan RI
         </p>
-        <div className="w-full">
+        <div className="flex flex-col gap-3 w-full">
           <Link
             href="https://www.youtube.com/watch?v=sljShumOgOE"
             target="_blank"
@@ -86,43 +69,31 @@ function Page5Brand() {
           >
             <div className="relative h-[230px] w-full">
               <Image
-                src={jejer}
-                alt="gambar YouTube jejer"
+                src={binis1}
+                alt="gambar YouTube binis1"
                 fill
                 className="object-fit"
               />
             </div>
           </Link>
-          <p
-            className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
+          <Link
+            href="https://www.youtube.com/watch?v=sljShumOgOE"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Pre&#45;Production
-          </p>
-          <ul
-            className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
-          >
-            <li>Concepting</li>
-            <li>Rundown and Script Writing</li>
-            <li>Stage Design</li>
-          </ul>
-          <p
-            className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
-          >
-            Production
-          </p>
-          <ul
-            className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
-          >
-            <li>Manpower</li>
-            <li>Show Management</li>
-            <li>Talent Brief</li>
-            <li>Technical System</li>
-            <li>Documentation</li>
-          </ul>
+            <div className="relative h-[230px] w-full">
+              <Image
+                src={binis2}
+                alt="gambar YouTube binis2"
+                fill
+                className="object-fit"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
-    )
+  );
 }
 
-export default Page5Brand
+export default Page5Brand;
