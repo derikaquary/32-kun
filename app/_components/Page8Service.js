@@ -1,7 +1,7 @@
 import Image from "next/image";
 import page from "@/public/page 1_7.png";
 import Link from "next/link";
-import gambars from "@/public/gambars.png"
+import gambars from "@/public/gambars.png";
 import gambars2 from "@/public/gambars2.png";
 import { Outfit } from "next/font/google";
 
@@ -20,24 +20,25 @@ function Page8Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col w-full max-w-7xl sm:flex">
-        <div className="flex h-[100px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center sm:flex">
+        <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
-        <div className="flex justify-center">
+        <div className="flex w-[860px] items-center justify-center gap-3">
           {/* One and Only box */}
           <div className="flex flex-col gap-3 justify-center">
-            <p className={`${outfit.className} text-3xl text-white`}>
-              VIDEO TRANSFORMASI BULOG
+            <p className={`${outfit.className} text-xl text-white`}>
+              VIDEO COMPANY PROFILE PERUM BULOG
             </p>
             <ul
-              className={`${outfit.className} flex list-disc flex-col gap-1 pl-11 text-2xl font-[200] text-white`}
+              className={`${outfit.className} text-md flex list-disc flex-col gap-1 pl-11 font-[200] text-white`}
             >
               <li>
-                Pre&#45;Production &#40;Concepting and Script Writing&#41;
+                Pre&#45;Production &#40;Concepting&#44; Script Writing &#38;
+                Voice Over &#41;
               </li>
               <li>Production &#40;Shooting&#44; Directing and Briefing&#41;</li>
-              <li>Post&#45;Production &#40;Editing Motion&#41; </li>
+              <li>Post&#45;Production &#40; Editing and Motion Graphic &#41; </li>
               <li className="font-semibold text-black">
                 <Link
                   href="https://www.instagram.com/reel/C7YFPrPPi4i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
@@ -56,7 +57,7 @@ function Page8Service() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative h-[400px] w-[650px]">
+              <div className="relative h-[250px] w-[500px]">
                 <Image
                   src={gambars}
                   alt="gambar YouTube gambars"
@@ -69,7 +70,7 @@ function Page8Service() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 items-center px-2 pt-8 pb-[100px] pw-full bg-black/10 sm:hidden">
+      <div className="pw-full flex flex-col items-center gap-6 bg-black/10 px-2 pb-[100px] pt-8 sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://app.frame.io/reviews/6bbe8a95-b823-4534-8f22-afb8073b1344/af1eede6-2bba-4b6d-a5ac-1a4f9210e08c"

@@ -19,8 +19,8 @@ function Page7Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col w-full max-w-7xl sm:flex">
-        <div className="flex h-[100px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center  sm:flex">
+        <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
         <div className="flex gap-9 justify-center">
@@ -31,7 +31,7 @@ function Page7Service() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="relative h-[400px] w-[600px]">
+              <div className="relative h-[250px] w-[450px]">
                 <Image
                   src={vr}
                   alt="gambar YouTube vr"
@@ -46,7 +46,7 @@ function Page7Service() {
               VIDEO TRANSFORMASI BULOG
             </p>
             <ul
-              className={`${outfit.className} flex list-disc flex-col gap-1 pl-11 text-2xl font-[200] text-white`}
+              className={`${outfit.className} flex list-disc flex-col gap-1 pl-11 text-xl font-[200] text-white`}
             >
               <li>
                 Pre&#45;Production &#40;Concepting and Script Writing&#41;
