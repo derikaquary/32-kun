@@ -20,12 +20,12 @@ function Page6Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col w-full max-w-7xl sm:flex">
-        <div className="flex h-[100px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className=" hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center  sm:flex">
+        <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>
-        <div className="flex flex-col">
-          <div className="flex h-[400px] w-full max-w-7xl gap-5 px-[70px]">
+        <div className="flex flex-col gap-3">
+          <div className=" flex w-full max-w-7xl gap-5 px-[70px]">
             {/* Left box */}
             <div className="flex-1 h-400px">
               <Link
@@ -33,7 +33,7 @@ function Page6Service() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="relative h-[305px] w-full">
+                <div className="relative h-[200px] w-[350px]">
                   <Image
                     src={pelatih}
                     alt="gambar YouTube pelatih"
@@ -43,7 +43,7 @@ function Page6Service() {
                 </div>
               </Link>
               <ul
-                className={`${outfit.className} ml-10 mt-5 flex list-disc flex-col gap-1 text-xl font-[200] text-white`}
+                className={`${outfit.className} ml-10 mt-5 flex list-disc flex-col gap-1 text-md font-[200] text-white`}
               >
                 <li className="font-semibold text-black">
                   <Link
@@ -65,7 +65,7 @@ function Page6Service() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="relative h-[305px] w-full">
+                <div className="relative h-[200px] w-[350px]">
                   <Image
                     src={mariana}
                     alt="gambar YouTube mariana"
@@ -75,7 +75,7 @@ function Page6Service() {
                 </div>
               </Link>
               <ul
-                className={`ml-10 mt-5 flex list-disc flex-col gap-1 text-xl font-[200] text-white ${outfit.className}`}
+                className={`ml-10 mt-5 flex list-disc flex-col gap-1 text-md font-[200] text-white ${outfit.className}`}
               >
                 <li className="font-semibold text-black">
                   <Link
