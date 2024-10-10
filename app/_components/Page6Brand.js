@@ -5,13 +5,13 @@ import hut from "@/public/hut.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
-    subsets: ["latin"],
-    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  });
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 function Page6Brand() {
-    return (
-        <div
+  return (
+    <div
       className={`relative flex w-full flex-col items-center justify-center ${outfit.className}`}
     >
       <Image
@@ -27,10 +27,10 @@ function Page6Brand() {
         </div>
         <div className="w-[850px]">
           <p className="mb-2 text-2xl font-[800] leading-[1.2] text-tertiery">
-            Grand Launching panganan.com Bulog
+            HUT BULOG 53 &#45; 55 TAHUN &#40;Virtual Event&#41;
           </p>
         </div>
-        <div className="flex gap-4 justify-center items-center">
+        <div className="flex items-center justify-center gap-4">
           <div className="">
             <p
               className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
@@ -43,6 +43,8 @@ function Page6Brand() {
               <li>Concepting</li>
               <li>Rundown and Script Writing</li>
               <li>Stage Design</li>
+              <li>Property</li>
+              <li>Location</li>
             </ul>
             <p
               className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
@@ -52,11 +54,20 @@ function Page6Brand() {
             <ul
               className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
             >
-              <li>Manpower</li>
-              <li>Show Management</li>
+              <li>Live Streaming system on YouTube and Instagram</li>
               <li>Talent Brief</li>
-              <li>Technical System</li>
-              <li>Documentation</li>
+              <li>Shoot all VT Content</li>
+              <li>Techincal System</li>
+            </ul>
+            <p
+              className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
+            >
+              Post Production
+            </p>
+            <ul
+              className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
+            >
+              <li>Editing &#38; Motion</li>
             </ul>
           </div>
           {/* Right Box */}
@@ -74,7 +85,7 @@ function Page6Brand() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full border-t-2 border-white/40 bg-black/10 sm:hidden">
+      <div className="flex w-full flex-col justify-center gap-3 border-t-2 border-white/40 bg-black/10 px-2 py-8 sm:hidden">
         <p className="text-center text-3xl font-[700] leading-[1.0] text-tertiery">
           HUT BULOG 53 &#45; 55 TAHUN &#40;Virtual Event&#41;
         </p>
@@ -104,6 +115,8 @@ function Page6Brand() {
             <li>Concepting</li>
             <li>Rundown and Script Writing</li>
             <li>Stage Design</li>
+            <li>Property</li>
+            <li>Location</li>
           </ul>
           <p
             className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
@@ -113,16 +126,25 @@ function Page6Brand() {
           <ul
             className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
           >
-            <li>Manpower</li>
-            <li>Show Management</li>
+            <li>Live Streaming system on YouTube and Instagram</li>
             <li>Talent Brief</li>
-            <li>Technical System</li>
-            <li>Documentation</li>
+            <li>Shoot all VT Content</li>
+            <li>Techincal System</li>
+          </ul>
+          <p
+            className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
+          >
+            Post Production
+          </p>
+          <ul
+            className={`ml-5 mt-2 flex list-disc flex-col gap-1 px-2 text-lg font-[200] text-white ${outfit.className}`}
+          >
+            <li>Editing &#38; Motion</li>
           </ul>
         </div>
       </div>
     </div>
-    )
+  );
 }
 
-export default Page6Brand
+export default Page6Brand;
