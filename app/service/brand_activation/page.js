@@ -6,6 +6,8 @@ import Page3Brand from "@/app/_components/Page3Brand";
 import Page4Brand from "@/app/_components/Page4Brand";
 import Page5Brand from "@/app/_components/Page5Brand";
 import Page6Brand from "@/app/_components/Page6Brand";
+import Page7Brand from "@/app/_components/Page7Brand";
+
 
 function BrandActivation() {
   return (
@@ -16,6 +18,7 @@ function BrandActivation() {
       <Page4Brand/>
       <Page5Brand/>
       <Page6Brand/>
+      <Page7Brand/>
 
     </>
   );
