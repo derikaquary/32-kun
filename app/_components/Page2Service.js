@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 function Page2Service() {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px] ">
+    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px]">
       <Image
         src={page}
         alt="background page 5"
@@ -13,11 +13,14 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col p-2 w-full max-w-7xl rounded-lg sm:flex pt-[100px]">
-{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:1608202756. */}
-        <div className="bg-black/40 px-1 py-3 rounded-2xl fixed text-sm text-white font-[200] left-2 top-[250px] flex flex-col h-[100px] items-center gap-3"><FaArrowUp /><span>Scroll</span><FaArrowDown /></div>
-        <div className="flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary ">
-        VIDEO PRODUCTION
+      <div className="hidden w-full max-w-7xl flex-col rounded-lg p-2 pt-[100px] sm:flex relative">
+        <div className="fixed left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+          <FaArrowUp />
+          <span>Scroll</span>
+          <FaArrowDown />
+        </div>
+        <div className="flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary">
+          VIDEO PRODUCTION
         </div>
         <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
           <li>TVC</li>
@@ -32,7 +35,12 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 justify-center items-center px-3 py-4 sm:hidden">
+      <div className=" relative z-[100] flex-col items-center pt-6 px-3 pb-4 flex sm:hidden h-[100vh] gap-3">
+      <div className="fixed right-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+          <FaArrowUp />
+          <span>Scroll</span>
+          <FaArrowDown />
+        </div>
         <p className="text-center text-5xl font-[800] text-secondary">
           VIDEO PRODUCTION
         </p>

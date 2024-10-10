@@ -1,5 +1,7 @@
 import Image from "next/image";
 import page from "@/public/page 1_13.png";
+import { FaArrowDown } from "react-icons/fa6";
+import { FaArrowUp } from "react-icons/fa";
 
 function Page1Brand() {
   return (
@@ -11,8 +13,13 @@ function Page1Brand() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className=" pt-[100px] hidden h-[100vh] flex-col w-full max-w-7xl rounded-lg sm:flex">
-        <div className="flex h-[130px] w-full items-center pl-[60px] text-[55px] font-[800] text-secondary">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col rounded-lg pt-[100px] sm:flex">
+        <div className="fixed left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+          <FaArrowUp />
+          <span>Scroll</span>
+          <FaArrowDown />
+        </div>
+        <div className="flex h-[70px] w-full items-center pl-[60px] text-[45px] font-[800] text-secondary">
           Brand Activation
         </div>
         <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
@@ -21,7 +28,6 @@ function Page1Brand() {
           <li>PRODUCT CAMPAIGN</li>
           <li>FIGURE CAMPAIGN</li>
         </ul>
-        
       </div>
       {/* Small Screen */}
       <div className="flex flex-col gap-6 justify-center items-center px-3 py-4 rounded-md bg-black/40 sm:hidden">

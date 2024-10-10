@@ -22,18 +22,18 @@ function Page2Brand() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden h-[100vh] w-full max-w-7xl flex-col pt-[50px] sm:flex">
-        <div className="flex h-[100px] w-full items-center text-[55px] font-[800] text-secondary">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center bg-green-400 sm:flex">
+        <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           EVENT
         </div>
-        <p className="w-[700px] text-[35px] font-[800] text-tertiery leading-[1.2] mb-2">
+        <p className="mb-2 w-[400px] text-2xl font-[800] leading-[1.2] text-tertiery">
           Opening Ceremony Rakernis Kementerian Ketenagakerjaan RI
         </p>
         <div className="flex flex-col gap-4">
-          <div className="gap-3 flex h-[330px] w-full max-w-7xl ">
+          <div className="flex h-[330px] w-full max-w-7xl gap-3">
             {/* Left box */}
             <div className="flex-1 h-200px">
-              <div className="relative w-full h-[330px]">
+              <div className="relative h-[200px] w-[350px]">
                 <Image
                   src={rapat}
                   alt="gambar YouTube rapat"
@@ -44,7 +44,7 @@ function Page2Brand() {
             </div>
             {/* Right Box */}
             <div className="flex-1 h-200px">
-              <div className="relative h-[330px] w-full">
+              <div className="relative h-[200px] w-[350px]">
                 <Image
                   src={gong}
                   alt="gambar YouTube gong"
@@ -70,7 +70,7 @@ function Page2Brand() {
       {/* Small Screen */}
       <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full bg-black/10 sm:hidden">
         <p className="text-center text-5xl font-[800] text-secondary">EVENT</p>
-        <p className="text-center text-3xl font-[700] text-tertiery leading-[1.0]">
+        <p className="text-center text-3xl font-[700] leading-[1.0] text-tertiery">
           Opening Ceremony Rakernis Kementerian Ketenagakerjaan RI
         </p>
         <div className="h-[390px] w-full">
