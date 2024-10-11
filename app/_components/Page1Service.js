@@ -18,7 +18,7 @@ function Page1Service() {
         <div className=" px-auto text-[35px] font-[700] text-secondary">
           <p>Our Services</p>
         </div>
-        <div className=" flex h-[200px] w-full flex-col justify-center items-center gap-3 text-lg font-[500] text-white">
+        <nav className=" flex h-[200px] w-full flex-col justify-center items-center gap-3 text-lg font-[500] text-white">
           <Link href="/service/video_production">
             <button className="px-3 py-2 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
               VIDEO PRODUCTION
@@ -34,7 +34,7 @@ function Page1Service() {
               CONTENT CREATOR
             </button>
           </Link>
-        </div>
+        </nav>
       </div>
       {/* Small Screen */}
       <div className="flex flex-col gap-8 justify-center items-center px-2 py-3 rounded-lg bg-black/50 sm:hidden">
