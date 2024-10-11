@@ -63,10 +63,8 @@ function Header() {
 
   // Function to check if the current route matches the link
   const isActiveLink = (href) => {
-    if (href === "/") {
-      return pathname === href; // Only highlight "Home" if it's exactly "/"
-    }
-    return pathname.startsWith(href); // Highlight other links if they start with the href
+    // Check if the pathname starts with the href
+    return pathname === href || pathname.startsWith(href);
   };
 
   return (
