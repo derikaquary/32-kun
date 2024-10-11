@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Page1Service() {
   return (
-    <div className="w-full sm:fixed flex h-[100vh] sm:w-[300px] flex-col items-center justify-center sm:border-r-2 border-white/30">
+    <div className="w-full sm:fixed flex h-[100vh] sm:w-[300px] flex-col items-center justify-center sm:border-r-2 border-white/30 ">
       <Image
         src={page}
         alt="background page 5"

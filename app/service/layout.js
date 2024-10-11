@@ -9,9 +9,9 @@ function ServiceLayout({children}) {
             <div className="ml-[280px] flex-1">{children}</div>
         </div>
         {/* Small Screen */}
-        <div className="flex flex-col sm:hidden">
+        <div className="flex flex-col bg-primary sm:hidden">
             <Page1Service/>
-            <div className="sm:ml-[280px] sm:flex-1">{children}</div>
+            <div className="sm:ml-[280px] flex-1">{children}</div>
         </div>
         
         </>
