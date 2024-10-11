@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 function Page2Service() {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center pt-[75px]">
+    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center sm:pt-[75px] pt-[10px]">
       <Image
         src={page}
         alt="background page 5"
@@ -35,7 +35,7 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className=" flex h-[100vh] flex-col items-center gap-3 px-3 pb-4 sm:hidden justify-center">
+      <div className=" flex h-[100vh] flex-col items-center gap-3 px-3 pb-4 sm:hidden">
         {/* <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>

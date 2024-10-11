@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Page1Service() {
   return (
-    <div className="flex bg-backgr h-[100vh] w-full flex-col items-center justify-center border-white/30 sm:fixed sm:w-[300px] sm:border-r-2">
+    <div className="flex bg-backgr sm:h-[100vh] w-full flex-col items-center sm:justify-center border-white/30 sm:fixed sm:w-[300px] sm:border-r-2">
       <Image
         src={page}
         alt="background page 5"
@@ -36,21 +36,21 @@ function Page1Service() {
         </nav>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-8 justify-center items-center px-2 py-3 rounded-lg bg-black/50 sm:hidden">
+      <div className="flex flex-col gap-8 items-center px-2 py-3 bg-black/50 sm:hidden">
         <p className="text-5xl font-[800] text-secondary">Our Services</p>
-        <div className="flex flex-col gap-3 text-xl font-[500] text-white">
+        <div className="flex gap-3 text-xs font-[500] text-white">
           <Link href="/service/video_production">
-            <button className="px-6 py-3 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
+            <button className="px-1 py-1 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
               VIDEO PRODUCTION
             </button>
           </Link>
           <Link href="/service/brand_activation">
-            <button className="px-6 py-3 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
+            <button className="px-1 py-1 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
               BRAND ACTIVATION
             </button>
           </Link>
           <Link href="/service/content_creator">
-            <button className="px-6 py-3 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
+            <button className="px-1 py-1 text-black bg-yellow-500 rounded-full border-2 border-white transition-all hover:bg-yellow-600">
               CONTENT CREATOR
             </button>
           </Link>
