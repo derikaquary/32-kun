@@ -14,7 +14,7 @@ function Page1Brand() {
       />
       {/* Big Screen */}
       <div className="hidden h-[100vh] w-full max-w-7xl flex-col rounded-lg pt-[100px] sm:flex">
-        <div className="fixed z-[100] left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-4 text-sm font-[200] text-white">
+        <div className="fixed z-[100] left-[305px] top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-4 text-sm font-[200] text-white">
           <FaArrowUp />
           <span className="text-xs">Scroll</span>
           <FaArrowDown />

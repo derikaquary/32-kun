@@ -13,8 +13,8 @@ function Page2Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="relative hidden w-full max-w-7xl flex-col rounded-lg p-2 pt-[100px] sm:flex">
-        <div className="fixed left-2 top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-4 text-sm font-[200] text-white">
+      <div className=" hidden w-full max-w-7xl flex-col rounded-lg p-2 pt-[100px] sm:flex">
+        <div className="fixed left-[305px] top-[250px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-4 text-sm font-[200] text-white">
           <FaArrowUp />
           <span className="text-xs">Scroll</span>
           <FaArrowDown />
