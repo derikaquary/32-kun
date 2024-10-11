@@ -30,12 +30,12 @@ function Page1Brand() {
         </ul>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 justify-center items-center px-3 py-4 rounded-md  bg-black/40 sm:hidden">
-      <div className="fixed z-[100] right-2 top-[320px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-3 text-sm font-[200] text-white">
+      <div className="flex flex-col gap-6 justify-center items-center px-3 py-4 rounded-md bg-black/40 sm:hidden">
+     {/*  <div className="fixed z-[100] right-2 top-[320px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
           <FaArrowDown />
-        </div>
+        </div> */}
         <p className="text-center text-5xl font-[800] text-secondary">
           Brand Activation
         </p>

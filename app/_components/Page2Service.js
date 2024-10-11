@@ -36,11 +36,11 @@ function Page2Service() {
       </div>
       {/* Small Screen */}
       <div className=" flex h-[100vh] flex-col items-center gap-3 px-3 pb-4 sm:hidden justify-center">
-        <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
+        {/* <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
           <FaArrowDown />
-        </div>
+        </div> */}
         <p className="text-center text-5xl font-[800] text-secondary">
           VIDEO PRODUCTION
         </p>
