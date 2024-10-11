@@ -2,7 +2,7 @@ import Page2Service from "../_components/Page2Service";
 
 function Service() {
   return (
-    <div>
+    <div className="hidden">
       <Page2Service />
     </div>
   );
