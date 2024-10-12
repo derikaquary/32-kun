@@ -77,7 +77,7 @@ function PageBrand3() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full border-t-2 border-white/40 bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full border-t-2 border-white/40 sm:hidden">
         <p className="text-center text-3xl font-[700] leading-[1.0] text-tertiery">
           Employee Gathering PGN
         </p>

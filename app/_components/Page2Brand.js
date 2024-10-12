@@ -70,7 +70,7 @@ function Page2Brand() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full sm:hidden">
         <p className="text-center text-5xl font-[800] text-secondary">EVENT</p>
         <p className="text-center text-3xl font-[700] leading-[1.0] text-tertiery">
           Opening Ceremony Rakernis Kementerian Ketenagakerjaan RI
