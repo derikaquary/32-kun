@@ -36,7 +36,7 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="mt-[150px] flex flex-col gap-3 items-center px-3 pb-4 sm:hidden h-[100vh] border-b-2 border-white w-full">
+      <div className="mt-[160px] flex w-full flex-col gap-6 border-b-2 border-white px-3 pb-4 sm:hidden">
         {/* <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
@@ -54,7 +54,7 @@ function Page2Service() {
           <li>MUSIC VIDEO</li>
           <li>LIVE STREAMING</li>
         </ul>
-        <div className="relative h-[450px] w-full flex flex-col items-center ">
+        <div className="relative w-full h-[250px]">
           <Image src={vidprod} alt="video production image" fill className="object-cover rounded-xl"/>
         </div>
         {/* <p className="px-3 py-2 text-white rounded-lg bg-black/30">Scroll down</p>
