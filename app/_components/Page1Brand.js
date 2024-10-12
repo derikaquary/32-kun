@@ -31,23 +31,23 @@ function Page1Brand() {
         </ul>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 items-center px-3 pt-[10px] rounded-md bg-black/40 sm:hidden h-[100vh]">
+      <div className="w-full flex flex-col gap-6  px-3 pt-[20px] sm:hidden h-[100vh] border-b-2 border-white">
         
      {/*  <div className="fixed z-[100] right-2 top-[320px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
           <FaArrowDown />
         </div> */}
-        <p className="text-center text-5xl font-[800] text-secondary ">
+        <p className="text-center text-3xl font-[800] text-secondary ">
           Brand Activation
         </p>
-        <ul className="ml-5 flex list-disc flex-col gap-1 px-2 text-3xl font-[300] text-white">
+        <ul className="ml-5 flex list-disc flex-col gap-1 px-2 text-xl font-[300] text-white">
           <li>EVENT</li>
           <li>DIGITAL CAMPAIGN</li>
           <li>PRODUCT CAMPAIGN</li>
           <li>FIGURE CAMPAIGN</li>
         </ul>
-        <div className="relative w-full h-[400px] "><Image src={activation} alt="brand activation image" fill className="object-cover rounded-xl"/></div>
+        <div className="relative w-full h-[500px] "><Image src={activation} alt="brand activation image" fill className="object-cover rounded-xl"/></div>
       </div>
     </div>
   );

@@ -68,7 +68,7 @@ function Page7Service() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 items-center px-2 w-full bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-6 items-center px-2 w-full sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://www.instagram.com/reel/C7YFPrPPi4i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"

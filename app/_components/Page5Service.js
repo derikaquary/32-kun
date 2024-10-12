@@ -104,7 +104,7 @@ function Page5Service() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-6 items-center px-2 w-full bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-6 items-center px-2 w-full sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://www.youtube.com/watch?si=cphQ2t2hhxbaryqj&v=pJ5cXFuxyQE&feature=youtu.be"

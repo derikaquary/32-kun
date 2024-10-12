@@ -100,7 +100,7 @@ function Page3Service() {
         
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-3 justify-center px-2 pt-8 w-full bg-black/10 sm:hidden">
+      <div className="flex flex-col gap-3 justify-center px-2 py-8 w-full sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://www.youtube.com/watch?v=7ihGgcnKido"

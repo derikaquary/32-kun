@@ -11,7 +11,7 @@ import Page8Brand from "@/app/_components/Page8Brand";
 
 function BrandActivation() {
   return (
-    <>
+    <div >
       <Page1Brand />
       <Page2Brand />
       <Page3Brand/>
@@ -21,7 +21,7 @@ function BrandActivation() {
       <Page7Brand/>
       <Page8Brand/>
 
-    </>
+    </div>
   );
 }
 

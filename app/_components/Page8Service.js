@@ -70,7 +70,7 @@ function Page8Service() {
         </div>
       </div>
       {/* Small Screen */}
-      <div className="pw-full flex flex-col items-center gap-6 bg-black/10 px-2 pb-[100px] pt-8 sm:hidden">
+      <div className="pw-full flex flex-col items-center gap-6 px-2 pb-[100px] pt-8 sm:hidden">
         <div className="w-full h-400px">
           <Link
             href="https://app.frame.io/reviews/6bbe8a95-b823-4534-8f22-afb8073b1344/af1eede6-2bba-4b6d-a5ac-1a4f9210e08c"
