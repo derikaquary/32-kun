@@ -16,12 +16,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden antialiased ${openSans.className}`}>
+      <body className={`overflow-x-hidden antialiased ${openSans.className} `}>
         {" "}
         {/* Prevent horizontal overflow */}
         <Header />
         {children}
-        <Footer/>
+       {/*  <Footer/> */}
       </body>
     </html>
   );

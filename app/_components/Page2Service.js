@@ -57,8 +57,8 @@ function Page2Service() {
         <div className="relative h-[450px] w-full flex flex-col items-center ">
           <Image src={vidprod} alt="video production image" fill className="object-cover rounded-xl"/>
         </div>
-        <p className="px-3 py-2 text-white rounded-lg bg-black/30">Scroll down</p>
-        <FaArrowDown color="white" size={20}/>
+        {/* <p className="px-3 py-2 text-white rounded-lg bg-black/30">Scroll down</p>
+        <FaArrowDown color="white" size={20}/> */}
       </div>
     </div>
   );

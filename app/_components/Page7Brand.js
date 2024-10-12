@@ -21,7 +21,7 @@ function Page7Brand() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center pt-[70px] sm:flex">
+      <div className=" hidden h-[100vh] w-full max-w-7xl flex-col items-center pt-[70px] sm:flex">
         <div className="flex h-[70px] w-[910px] items-center text-[35px] font-[700] text-secondary">
           EVENT
         </div>
@@ -73,7 +73,7 @@ function Page7Brand() {
           </div>
           {/* Right Box */}
 
-          <div className="relative h-full w-[300px]">
+          <div className="relative h-full w-[250px]">
             <Image
               src={festive}
               alt="gambar YouTube festive"

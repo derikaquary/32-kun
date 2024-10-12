@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Page1Service() {
   return (
-    <div className="flex bg-backgr sm:h-[100vh] w-full flex-col items-center sm:justify-center border-white/30 sm:fixed sm:w-[300px] sm:border-r-2">
+    <div className="flex bg-backgr sm:h-[100vh] w-full  flex-col items-center sm:justify-center border-white/30 sm:fixed sm:w-[282px] sm:border-r-2">
       <Image
         src={page}
         alt="background page 5"
@@ -12,7 +12,7 @@ function Page1Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden flex-col justify-center items-center p-2 w-full max-w-7xl backdrop-blur-md sm:flex">
+      <div className="hidden flex-col justify-center items-center p-2 max-w-7xl backdrop-blur-md sm:flex">
         {/* Suggested code may be subject to a license. Learn more: ~LicenseLog:2032050689. */}
         <div className="px-auto text-[35px] font-[700] text-secondary">
           <p>Our Services</p>
