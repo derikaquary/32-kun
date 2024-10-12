@@ -1,7 +1,7 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
 import Link from "next/link";
-import festive from "@/public/festive.png";
+import hut57 from "@/public/hut57.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -75,8 +75,8 @@ function Page8Brand() {
 
           <div className="relative h-full w-[300px]">
             <Image
-              src={festive}
-              alt="gambar YouTube festive"
+              src={hut57}
+              alt="gambar YouTube hut57"
               fill
               className="object-fit"
             />
@@ -96,10 +96,10 @@ function Page8Brand() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="relative mx-auto h-[260px] w-[150px]">
+            <div className="relative mx-auto h-[260px] w-[160px]">
               <Image
-                src={festive}
-                alt="gambar YouTube festive"
+                src={hut57}
+                alt="gambar YouTube hut57"
                 fill
                 className="object-fit"
               />
