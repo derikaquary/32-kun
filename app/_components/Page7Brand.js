@@ -1,6 +1,6 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
+
 import festive from "@/public/festive.png";
 import { Outfit } from "next/font/google";
 
@@ -91,11 +91,7 @@ function Page7Brand() {
           HUT BULOG 56 TAHUN
         </p>
         <div className="w-full">
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             <div className="relative mx-auto h-[260px] w-[150px]">
               <Image
                 src={festive}
@@ -104,7 +100,7 @@ function Page7Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
+          
           <p
             className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
           >

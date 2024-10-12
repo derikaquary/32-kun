@@ -1,6 +1,5 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
 import hut57 from "@/public/hut57.png";
 import { Outfit } from "next/font/google";
 
@@ -93,11 +92,7 @@ function Page8Brand() {
           RANGKAIAN HUT BULOG 57 TAHUN
         </p>
         <div className="w-full">
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             <div className="relative mx-auto h-[260px] w-[200px]">
               <Image
                 src={hut57}
@@ -106,7 +101,7 @@ function Page8Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
+          
           <p
             className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
           >

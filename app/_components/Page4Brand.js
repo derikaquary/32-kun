@@ -1,6 +1,5 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
 import jejer from "@/public/jejer.png";
 import { Outfit } from "next/font/google";
 
@@ -79,11 +78,7 @@ function Page4Brand() {
           Grand Launching Panganan.com Bulog
         </p>
         <div className="w-full">
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             <div className="relative h-[230px] w-full">
               <Image
                 src={jejer}
@@ -92,7 +87,7 @@ function Page4Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
+          
           <p
             className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
           >

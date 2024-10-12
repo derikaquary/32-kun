@@ -1,6 +1,5 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
 import rapat from "@/public/rapat.png";
 import gong from "@/public/gong.png";
 import { Outfit } from "next/font/google";

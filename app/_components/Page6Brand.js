@@ -1,6 +1,6 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
+
 import hut from "@/public/hut.png";
 import { Outfit } from "next/font/google";
 
@@ -84,11 +84,7 @@ function Page6Brand() {
           HUT BULOG 53 &#45; 55 TAHUN &#40;Virtual Event&#41;
         </p>
         <div className="w-full">
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             <div className="relative h-[260px] w-full">
               <Image
                 src={hut}
@@ -97,7 +93,7 @@ function Page6Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
+          
           <p
             className={`mt-2 text-lg font-[200] text-white ${outfit.className}`}
           >

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import page from "@/public/page 1_14.png";
-import Link from "next/link";
 import binis1 from "@/public/binis1.png";
 import binis2 from "@/public/binis2.png";
 import { Outfit } from "next/font/google";
@@ -51,7 +50,6 @@ function Page5Brand() {
               className="object-fit"
             />
           </div>
-
           <div className="flex justify-center"></div>
         </div>
       </div>
@@ -62,11 +60,7 @@ function Page5Brand() {
           Mandiri Kementerian Ketenagakerjaan RI
         </p>
         <div className="flex flex-col gap-3 w-full">
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
             <div className="relative h-[230px] w-full">
               <Image
                 src={binis1}
@@ -75,12 +69,8 @@ function Page5Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
-          <Link
-            href="https://www.youtube.com/watch?v=sljShumOgOE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          
+          
             <div className="relative h-[230px] w-full">
               <Image
                 src={binis2}
@@ -89,7 +79,7 @@ function Page5Brand() {
                 className="object-fit"
               />
             </div>
-          </Link>
+          
         </div>
       </div>
     </div>
