@@ -36,7 +36,7 @@ function Page1Service() {
         </nav>
       </div>
       {/* Small Screen */}
-      <div className="flex flex-col gap-8 items-center px-2 py-3 bg-black/50 sm:hidden">
+      <div className="z-[1000] flex fixed flex-col gap-8 items-center px-2 py-3 bg-black/50 backdrop-blur-md sm:hidden">
         <p className="text-5xl font-[800] text-secondary">Our Services</p>
         <div className="flex gap-3 text-xs font-[500] text-white">
           <Link href="/service/video_production">

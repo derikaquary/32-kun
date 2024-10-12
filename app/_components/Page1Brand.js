@@ -31,7 +31,7 @@ function Page1Brand() {
         </ul>
       </div>
       {/* Small Screen */}
-      <div className="flex h-[100vh] w-full flex-col gap-6 border-b-2 border-white px-3 pt-[20px] pb-4 sm:hidden">
+      <div className="mt-[160px] flex h-[100vh] w-full flex-col gap-6 border-b-2 border-white px-3 pb-4 sm:hidden">
         {/*  <div className="fixed z-[100] right-2 top-[320px] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/30 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
@@ -46,7 +46,7 @@ function Page1Brand() {
           <li>PRODUCT CAMPAIGN</li>
           <li>FIGURE CAMPAIGN</li>
         </ul>
-        <div className="relative h-[500px] w-full">
+        <div className="relative w-full h-full">
           <Image
             src={activation}
             alt="brand activation image"

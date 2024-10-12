@@ -36,7 +36,7 @@ function Page2Service() {
         <div className="h-[100px] w-full pl-[200px] text-4xl font-[500] text-white"></div>
       </div>
       {/* Small Screen */}
-      <div className="pt-[10px] flex flex-col gap-3 items-center px-3 pb-4 sm:hidden h-[100vh] ">
+      <div className="mt-[150px] flex flex-col gap-3 items-center px-3 pb-4 sm:hidden h-[100vh] border-b-2 border-white w-full">
         {/* <div className="fixed right-2 top-[250px] z-[100] flex h-[100px] flex-col items-center gap-3 rounded-2xl bg-black/40 px-1 py-3 text-sm font-[200] text-white">
           <FaArrowUp />
           <span>Scroll</span>
