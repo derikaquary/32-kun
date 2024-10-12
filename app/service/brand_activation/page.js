@@ -8,6 +8,8 @@ import Page5Brand from "@/app/_components/Page5Brand";
 import Page6Brand from "@/app/_components/Page6Brand";
 import Page7Brand from "@/app/_components/Page7Brand";
 import Page8Brand from "@/app/_components/Page8Brand";
+import Page9Brand from "@/app/_components/Page9Brand";
+
 
 function BrandActivation() {
   return (
@@ -20,6 +22,7 @@ function BrandActivation() {
       <Page6Brand/>
       <Page7Brand/>
       <Page8Brand/>
+      <Page9Brand/>
 
     </div>
   );
