@@ -24,10 +24,9 @@ function Page1Content() {
           CONTENT CREATOR
         </div>
         <ul className="ml-[190px] flex list-disc flex-col gap-1 text-[30px] font-[300] text-white">
-          <li>EVENT</li>
-          <li>DIGITAL CAMPAIGN</li>
-          <li>PRODUCT CAMPAIGN</li>
-          <li>FIGURE CAMPAIGN</li>
+          <li className="w-[300px]">DIGITAL CONTENT VIDEO</li>
+          <li>YOUTUBE CHANNEL</li>
+          <li>WEB SERIES</li>
         </ul>
       </div>
       {/* Small Screen */}
