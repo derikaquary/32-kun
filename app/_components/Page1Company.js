@@ -13,7 +13,7 @@ function Page1Company() {
   return (
     <div>
       {/* Big Screen */}
-      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center sm:flex gap-10 border-b-2 border-white/30">
+      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center sm:flex gap-10 border-b-2 border-white/30 pt-[70px]">
         {" "}
         <Image
           src={page1}
@@ -21,7 +21,7 @@ function Page1Company() {
           fill
           className="z-[-50] object-cover"
         />
-        <p className="text-center text-7xl font-[900] w-[400px] text-secondary">
+        <p className="text-center text-6xl font-[900] w-[400px] text-secondary">
           OUR COMPANY
         </p>
         <div className="flex gap-[100px] items-center">
@@ -37,6 +37,7 @@ function Page1Company() {
             />
           </div>
         </div>
+        <div className="px-4 py-3 text-xl text-white rounded-lg bg-black/30">Scroll Down</div>
       </div>
 
       {/* Small Screen */}

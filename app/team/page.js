@@ -14,7 +14,7 @@ function Team() {
   return (
     <div>
       {/* Big Screen */}
-      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-[100px] border-b-2 border-white/30 pt-[30px] sm:flex">
+      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-[60px] border-b-2 border-white/30 pt-[70px] sm:flex">
         {" "}
         <Image
           src={page1}
