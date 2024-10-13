@@ -125,7 +125,7 @@ function Header() {
             href="/our_company"
             className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/our_company") ? "text-yellow-500" : ""}`}
           >
-            Our Company
+            Company
           </Link>
           <Link
             href="/team"
@@ -170,7 +170,7 @@ function Header() {
             href="/our_company"
             className={`${isActiveLink("/our_company") ? "text-yellow-500" : ""}`}
           >
-            Our Company
+            Company
           </Link>
           <Link
             href="/team"

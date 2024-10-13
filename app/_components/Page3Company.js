@@ -1,6 +1,6 @@
 import Image from "next/image";
-import page1 from "@/public/page 1_26.png";
-import kunImage from "@/public/logo_mainn.png";
+import page1 from "@/public/page 1_27.png";
+import lingkaran from "@/public/lingkaran.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -8,11 +8,11 @@ const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-function Page2Company() {
+function Page3Company() {
   return (
     <div>
       {/* Big Screen */}
-      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-10 border-b-2 border-white/30 sm:flex pt-[50px]">
+      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-10 border-b-2 border-white/30 pt-[50px] sm:flex">
         {" "}
         <Image
           src={page1}
@@ -22,15 +22,16 @@ function Page2Company() {
         />
         <div className="flex flex-col gap-5 items-center">
           <div className="relative h-[200px] w-[300px]">
-            <Image src={kunImage} alt="kun logo" fill className="object-fit" />
+            <Image src={lingkaran} alt="kun logo" fill className="object-fit" />
           </div>
           <p className="text-center text-4xl font-[500] text-primary">
-            KREATOR UTAMA NUSANTARA
+            LINGKARAN KREASI INOVASI &#40;CIRCLE&#41;
           </p>
           <p className="w-[700px] text-center text-xl font-[700] text-primary">
-            Merupakan Perusahaan yang bergerak di bidang Jasa Periklanan,
-            Fotografi, Platform digital dan Event organizer yang sudah hadir
-            sejak tahun 2019 hingga saat ini, dengan status Pajak Non PKP
+            Merupakan Sister Company dari Kreator Utama Nusantara yang juga
+            bergerak di bidang Jasa Periklanan, Special Event dan Event
+            Organizer. Lingkaran Kreasi Inovasi (Circle) hadir di tahun 2023
+            dengan status Pajak PKP
           </p>
         </div>
       </div>
@@ -46,15 +47,16 @@ function Page2Company() {
         />
         <div className="flex flex-col gap-4 items-center">
           <div className="relative h-[200px] w-[270px]">
-            <Image src={kunImage} alt="kun logo" fill className="object-fit" />
+            <Image src={lingkaran} alt="kun logo" fill className="object-fit" />
           </div>
           <p className="text-center text-4xl font-[500] text-primary">
-            KREATOR UTAMA NUSANTARA
+          LINGKARAN KREASI INOVASI &#40;CIRCLE&#41;
           </p>
           <p className="text-justify text-lg font-[600] text-primary">
-            Merupakan Perusahaan yang bergerak di bidang Jasa Periklanan,
-            Fotografi, Platform digital dan Event organizer yang sudah hadir
-            sejak tahun 2019 hingga saat ini, dengan status Pajak Non PKP
+            Merupakan Sister Company dari Kreator Utama Nusantara yang juga
+            bergerak di bidang Jasa Periklanan, Special Event dan Event
+            Organizer. Lingkaran Kreasi Inovasi (Circle) hadir di tahun 2023
+            dengan status Pajak PKP
           </p>
         </div>
       </div>
@@ -62,4 +64,4 @@ function Page2Company() {
   );
 }
 
-export default Page2Company;
+export default Page3Company;
