@@ -20,7 +20,7 @@ function Page3Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className=" hidden w-full max-w-7xl flex-col justify-center items-center sm:flex h-[100vh]">
+      <div className=" hidden w-full max-w-7xl flex-col pt-[70px] items-center sm:flex h-[100vh]">
         <div className=" flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary">
           VIDEO PRODUCTION
         </div>

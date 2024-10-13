@@ -20,7 +20,7 @@ function Page5Service() {
         className="z-[-50] object-cover"
       />
       {/* Big Screen */}
-      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center justify-center  sm:flex">
+      <div className="hidden h-[100vh] w-full max-w-7xl flex-col items-center sm:flex pt-[40px]">
         <div className="flex h-[70px] w-full items-center pl-[200px] text-[35px] font-[700] text-secondary ">
           VIDEO PRODUCTION
         </div>

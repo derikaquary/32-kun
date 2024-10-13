@@ -71,7 +71,7 @@ function Header() {
 
   return (
     <header className="fixed z-[1001] h-[74px] w-full bg-primary">
-      <div className="flex flex-row justify-between items-center px-3 py-3 mx-auto border-b border-b-[#f6c34c] max-w-7xl">
+      <div className="mx-auto flex max-w-7xl flex-row items-center justify-between border-b border-b-[#f6c34c] px-3 py-3">
         <div className="flex flex-row gap-2 items-center">
           <div className="relative h-[50px] w-[50px]">
             <Image src={logo} fill alt="Company logo" className="rounded-lg" />
@@ -99,37 +99,43 @@ function Header() {
         >
           <Link
             href="/"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/") ? "text-yellow-500" : ""}`}
           >
             Home
           </Link>
           <Link
             href="/about"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/about") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/about") ? "text-yellow-500" : ""}`}
           >
             About
           </Link>
           <Link
             href="/client"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/client") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/client") ? "text-yellow-500" : ""}`}
           >
             Clients
           </Link>
           <Link
             href="/service"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/service") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/service") ? "text-yellow-500" : ""}`}
           >
             Services
           </Link>
           <Link
+            href="/our_company"
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/our_company") ? "text-yellow-500" : ""}`}
+          >
+            Our Company
+          </Link>
+          <Link
             href="/team"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/team") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/team") ? "text-yellow-500" : ""}`}
           >
             Team
           </Link>
           <Link
             href="/contact"
-            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${ isActiveLink("/contact") ? "text-yellow-500" : ""}`}
+            className={`text-xl text-white sm:mr-7 sm:block sm:text-lg ${isActiveLink("/contact") ? "text-yellow-500" : ""}`}
           >
             Contact
           </Link>
@@ -159,6 +165,12 @@ function Header() {
             className={`${isActiveLink("/service") ? "text-yellow-500" : ""}`}
           >
             Services
+          </Link>
+          <Link
+            href="/our_company"
+            className={`${isActiveLink("/our_company") ? "text-yellow-500" : ""}`}
+          >
+            Our Company
           </Link>
           <Link
             href="/team"

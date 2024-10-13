@@ -8,7 +8,7 @@ import Page8Service from "@/app/_components/Page8Service";
 
 function page() {
   return (
-    <div className="bg-black/20">
+    <div>
       <Page2Service />
       <Page3Service/>
       <Page4Service/>
