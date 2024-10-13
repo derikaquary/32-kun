@@ -40,7 +40,7 @@ function Page1Company() {
       </div>
 
       {/* Small Screen */}
-      <div className="relative flex h-[100vh] w-full flex-col items-center justify-center sm:hidden border-b-2 border-white/30">
+      <div className="relative flex h-[100vh] w-full flex-col items-center justify-center sm:hidden border-b-2 border-white/30 pt-[50px]">
         {" "}
         <Image
           src={page1}
@@ -63,6 +63,7 @@ function Page1Company() {
               className="object-fit"
             />
           </div>
+          <p className="px-3 py-2 mt-1 text-lg text-white rounded-lg bg-black/30">Scroll down</p>
         </div>
       </div>
     </div>
