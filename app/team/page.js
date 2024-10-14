@@ -3,6 +3,8 @@ import page1 from "@/public/page 1_28.png";
 import person1 from "@/public/person1.png";
 import person2 from "@/public/person2.png";
 import person3 from "@/public/person3.png";
+import person4 from "@/public/person4.png";
+import person5 from "@/public/person5.png";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -14,7 +16,7 @@ function Team() {
   return (
     <div>
       {/* Big Screen */}
-      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-[30px] border-b-2 border-white/30 pt-[50px] sm:flex">
+      <div className="relative hidden h-[100vh] w-full flex-col items-center justify-center gap-[10px] border-b-2 border-white/30 pt-[20px] sm:flex">
         {" "}
         <Image
           src={page1}
@@ -22,12 +24,12 @@ function Team() {
           fill
           className="z-[-50] object-cover"
         />
-        <p className="w-[400px] text-center text-7xl font-[900] text-primary">
+        <p className="w-[400px] text-center text-5xl font-[900] text-primary">
           OUR TEAM
         </p>
         <div className="flex flex-col">
-          <div className="flex flex-col">
-            <div className="relative mx-auto h-[210px] w-[175px]">
+          <div className="flex flex-col mb-6">
+            <div className="relative mx-auto h-[190px] w-[155px]">
               <Image
                 src={person1}
                 alt="person1 logo"
@@ -35,14 +37,14 @@ function Team() {
                 className="object-fit"
               />
             </div>
-            <p className="w-full text-center text-lg font-[600] text-primary">
-              M. RIZKI ARIA BIMA
+            <p className="w-full text-center font-[600] text-primary">
+              M&#46; RIZKI ARIA BIMA
             </p>
             <p className="text-sm font-bold text-center text-black">CEO</p>
           </div>
-          <div className="mt-[-160px] flex items-center gap-[300px]">
+          <div className="mt-[-80px] flex items-center gap-[160px]">
             <div className="flex flex-col">
-              <div className="relative mx-auto h-[210px] w-[175px]">
+              <div className="relative mx-auto h-[190px] w-[155px]">
                 <Image
                   src={person2}
                   alt="person2 logo"
@@ -50,15 +52,48 @@ function Team() {
                   className="object-fit"
                 />
               </div>
-              <p className="w-full text-center text-lg font-[600] text-primary">
+              <p className="w-full text-center font-[600] text-primary">
                 DEA DESTRIANA
               </p>
               <p className="text-sm font-bold text-center text-black">
                 CREATIVE DIRECTOR
               </p>
             </div>
+
             <div className="flex flex-col">
-              <div className="relative mx-auto h-[210px] w-[175px]">
+              <div className="relative mx-auto h-[190px] w-[155px]">
+                <Image
+                  src={person4}
+                  alt="person4 logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="w-full text-center font-[600] text-primary">
+                WISNU TRESNA NUGRAHA
+              </p>
+              <p className="text-sm font-bold text-center text-black">
+                DIRECTOR OF PHOTOGRAPHY
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <div className="relative mx-auto h-[190px] w-[155px]">
+                <Image
+                  src={person5}
+                  alt="person5 logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="w-full text-center font-[600] text-primary">
+                M&#46; FATAN HAKIKI
+              </p>
+              <p className="text-sm font-bold text-center text-black">
+                COMMISSIONER
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <div className="relative mx-auto h-[190px] w-[155px]">
                 <Image
                   src={person3}
                   alt="person3 logo"
@@ -66,7 +101,7 @@ function Team() {
                   className="object-fit"
                 />
               </div>
-              <p className="w-full text-center text-lg font-[600] text-primary">
+              <p className="w-full text-center font-[600] text-primary">
                 FERDY AL&#39;AMIN
               </p>
               <p className="text-sm font-bold text-center text-black">
@@ -78,7 +113,7 @@ function Team() {
       </div>
 
       {/* Small Screen */}
-      <div className="relative flex w-full flex-col items-center justify-center border-b-2 border-white/30 pt-[80px] pb-4 sm:hidden">
+      <div className="relative flex w-full flex-col items-center justify-center border-b-2 border-white/30 pb-4 pt-[80px] sm:hidden">
         {" "}
         <Image
           src={page1}
@@ -94,28 +129,62 @@ function Team() {
             <div className="relative h-[300px] w-[270px]">
               <Image src={person1} alt="kun logo" fill className="object-fit" />
             </div>
-            <p className="w-full text-center text-lg font-[600] text-primary">
-              M. RIZKI ARIA BIMA
+            <p className="w-full text-center font-[600] text-primary">
+              M&#46; RIZKI ARIA BIMA
             </p>
             <p className="font-bold text-center text-black">CEO</p>
           </div>
           <div className="flex flex-col">
             <div className="relative h-[300px] w-[270px]">
+              <Image
+                src={person5}
+                alt="kun logo"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <p className="w-full text-center font-[600] text-primary">
+              M&#46; FATAN HAKIKI
+            </p>
+            <p className="font-bold text-center text-black">COMMISSIONER</p>
+          </div>
+          <div className="flex flex-col">
+            <div className="relative h-[300px] w-[270px]">
+              <Image
+                src={person4}
+                alt="kun logo"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <p className="w-full text-center font-[600] text-primary">
+              WISNU TRESNA NUGRAHA
+            </p>
+            <p className="font-bold text-center text-black">
+              DIRECTOR OF PHOTOGRAPHY
+            </p>
+          </div>
+          <div className="flex flex-col">
+            <div className="relative h-[300px] w-[270px]">
               <Image src={person2} alt="kun logo" fill className="object-fit" />
             </div>
-            <p className="w-full text-center text-lg font-[600] text-primary">
-            DEA DESTRIANA
+            <p className="w-full text-center font-[600] text-primary">
+              DEA DESTRIANA
             </p>
-            <p className="font-bold text-center text-black">CREATIVE DIRECTOR</p>
+            <p className="font-bold text-center text-black">
+              CREATIVE DIRECTOR
+            </p>
           </div>
           <div className="flex flex-col">
             <div className="relative h-[300px] w-[270px]">
               <Image src={person3} alt="kun logo" fill className="object-fit" />
             </div>
-            <p className="w-full text-center text-lg font-[600] text-primary">
-            FERDY AL&#39;AMIN
+            <p className="w-full text-center font-[600] text-primary">
+              FERDY AL&#39;AMIN
             </p>
-            <p className="font-bold text-center text-black">TECHNICAL DIRECTOR</p>
+            <p className="font-bold text-center text-black">
+              TECHNICAL DIRECTOR
+            </p>
           </div>
         </div>
       </div>
