@@ -10,11 +10,11 @@ const openSans = Open_Sans({
 
 export const metadata = {
   title: {
-    default: "KUN",
-    template: "%s - KUN",
+    default: "Kreator Utama Nusantara",
+    template: "%s - Kreator Utama Nusantara",
   },
   description:
-    "Welcome to Kreator Utama Nusantara.We provide promotional videos, company profiles, managing social media both personal or company account, event organizing and also as media consulting for goverment and multinational company in our regional area",
+    "Welcome to Kreator Utama Nusantara. We provide promotional videos, company profiles and other cervices",
   keywords:
     "Kreator Utama Nusantara, promotional videos, company profiles, managing social media, event organizing, media consulting",
 };
